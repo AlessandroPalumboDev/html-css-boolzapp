@@ -1,3 +1,11 @@
 .tablet-only{
     display: none;
 }
+
+.border{
+    border: 1px solid black;
+}
+
+.grey{
+    color: grey;
+}
