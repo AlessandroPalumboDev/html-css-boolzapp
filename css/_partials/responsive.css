@@ -1,0 +1,24 @@
+/* TABLET */
+@media screen and (min-width: 480px) {
+    .tablet-only{
+        display:block
+    }
+
+    .row{
+        display: flex;
+    }
+
+    .col{
+        width: 85%;
+    }
+
+    .col.tablet-only{
+        width: 15%;
+    }
+}
+
+
+/* DESKTOP */
+@media screen and (min-width: 7680px) {
+    
+}
