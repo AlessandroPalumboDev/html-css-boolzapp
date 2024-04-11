@@ -9,16 +9,28 @@
     }
 
     .col{
-        width: 85%;
+        width: 88%;
     }
 
     .col.tablet-only{
-        width: 15%;
+        width: 12%;
     }
 }
 
 
 /* DESKTOP */
-@media screen and (min-width: 7680px) {
-    
+@media screen and (min-width: 768px) {
+    .container{
+        width: 80%;
+        height: 90%;
+        margin: auto;
+    }
+
+    .col{
+        width: 70%;
+    }
+
+    .col.tablet-only{
+        width: 30%;
+    }
 }
