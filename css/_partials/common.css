@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+    display: flex;
+    background-color: red;
+}
+
+.container{
+    width: 100%;
+    background-color: gold;
+}
+
+.row{
+    height: 100%;
+    background-color: silver;
+}
+
+.col{
+    height: 100%;
+    background-color: blue;
+}
+
+.top, .foot{
+    height: 10%;
+    background-color: lightgray;
+}
+
+.center {
+    height: 80%;
+    background-color: green;
+}
