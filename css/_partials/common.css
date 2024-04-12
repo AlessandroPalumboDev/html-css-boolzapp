@@ -1,7 +1,7 @@
 body{
     height: 100vh;
     display: flex;
-    background: linear-gradient(#019588 20%, #DADAD3 20%, #DADAD3 80%);    
+    background: linear-gradient(#019588 15vh, #DADAD3 15vh, #DADAD3 85vh);    
 }
 
 .container{
@@ -36,19 +36,18 @@ body{
     justify-content: space-between;
 }
 
-
-
 .top-img{
     width: 50px ;
     height: 50px;
     margin: 8px 15px;
+    flex-shrink: 0;
 }
 
 .top-img img{
     height: 100%;
-    width: 100%;
+    width: 150%;
     max-width: 100%;
-    object-fit: cover;
+    object-fit:cover;
     border-radius: 50%;
 }
 
@@ -79,6 +78,7 @@ body{
 
 .chats{
     overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .chats ul hr{
