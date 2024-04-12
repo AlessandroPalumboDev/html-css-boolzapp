@@ -48,6 +48,7 @@
     .notification-center{
         display: flex;
         padding: 10px;
+        align-items: center;
     }
 
     .notification-svg{
@@ -58,12 +59,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: auto;
+        margin-left: 10px;
     }
 
     .notification-svg svg{
-        width: 60%;
-        height: 60%;
+        width: 80%;
+        height: 80%;
         filter: brightness(0) saturate(100%) invert(79%) sepia(11%) saturate(1457%) hue-rotate(167deg) brightness(101%) contrast(98%);
     }
 
@@ -75,4 +76,36 @@
     .notification-message a{
         color: grey;
     }
+
+    .cerca{
+        display: flex;
+        background-color: rgb(243, 243, 243);
+    }
+
+    .content-cerca{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: white;
+        padding: 10px 20px;
+        width: 95%;
+        margin: 10px auto;
+    }
+
+    .cerca svg{
+        width: 15px;
+        height: 15px;
+        filter: invert(65%);
+    }
+
+    .content-cerca input{
+        width: 90%;
+        border: none;
+        margin-left: 10px;
+    }
+
+
+
+
+
 }
