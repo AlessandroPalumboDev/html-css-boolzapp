@@ -10,7 +10,8 @@
 
     .col.tablet-only{
         width: 12%;
-        display: block;
+        display: flex;
+        flex-direction: column;
         min-width: 80px;
         overflow: hidden;
         border-right: 1px solid lightgrey;
@@ -129,6 +130,7 @@
         color: rgb(173, 173, 173);
         margin-right: 10px;
     }
+
 
 
     

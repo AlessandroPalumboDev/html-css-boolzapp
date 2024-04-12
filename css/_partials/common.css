@@ -26,6 +26,7 @@ body{
 
 .col.tablet-only{
     display: none;
+    overflow: hidden;
 }
 
 .top, .foot{
@@ -78,7 +79,6 @@ body{
 
 .chats{
     overflow-y: auto;
-    height: calc(100% - 66px);
 }
 
 .chats ul hr{
