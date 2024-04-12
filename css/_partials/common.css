@@ -32,7 +32,10 @@ body{
     background-color: #EAEAEA;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
+
+
 
 .top-img{
     width: 50px ;
@@ -61,13 +64,13 @@ body{
     display: flex;
 }
 
-.top-icon.tablet-only ul.flex{
+.top-icon.tablet-only ul.flex, .top .desktop-only ul.flex{
     gap: 10px;
     margin: auto;
     margin-right: 10px;
 }
 
-.top-icon.tablet-only ul.flex svg{
+.top-icon.tablet-only ul.flex svg, .top .desktop-only ul.flex svg{
     width: 20px;
     height: 20px;
     filter: invert(62%);
@@ -114,4 +117,8 @@ body{
     width: 90%;
     border-radius: 5px;
     border: none;
+}
+
+.desktop-only{
+    display: none;
 }

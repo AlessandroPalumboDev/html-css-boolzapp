@@ -34,4 +34,45 @@
     .col.tablet-only{
         width: 30%;
     }
+
+    .desktop-only{
+        display: block;
+    }
+
+    .notification{
+        background-color: #8FDAFC;
+        display: flex;
+        align-items: center;
+    }
+
+    .notification-center{
+        display: flex;
+        padding: 10px;
+    }
+
+    .notification-svg{
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .notification-svg svg{
+        width: 60%;
+        height: 60%;
+        filter: brightness(0) saturate(100%) invert(79%) sepia(11%) saturate(1457%) hue-rotate(167deg) brightness(101%) contrast(98%);
+    }
+
+    .notification-message {
+        margin-left: 10px;
+    }
+
+
+    .notification-message a{
+        color: grey;
+    }
 }
