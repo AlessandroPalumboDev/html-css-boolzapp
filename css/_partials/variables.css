@@ -9,3 +9,7 @@
 .grey{
     color: grey;
 }
+
+.flex{
+    display: flex;
+}

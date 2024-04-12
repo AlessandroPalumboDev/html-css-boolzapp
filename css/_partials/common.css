@@ -21,7 +21,6 @@ body{
 
 .col.content{
     flex-grow: 1;
-
     overflow: hidden;
 }
 
@@ -57,6 +56,40 @@ body{
     font-size: larger;
 }
 
+.col.content .top{
+    justify-content: space-between;
+    display: flex;
+}
+
+.top-icon.tablet-only ul.flex{
+    gap: 10px;
+    margin: auto;
+    margin-right: 10px;
+}
+
+.top-icon.tablet-only ul.flex svg{
+    width: 20px;
+    height: 20px;
+    filter: invert(62%);
+}
+
+.chats{
+    overflow-y: auto;
+    height: calc(100% - 66px);
+}
+
+.chats ul hr{
+    color: #EAEAEA;
+    background: #EAEAEA;
+    border: 0;
+    height: 1px;
+}
+
+.col.content .top .top-left{
+    display: flex;
+    align-items: center;
+}
+
 .center {
     height:calc(100% - (66px + 56px));
     background-image:url(../../img/mine.jpg) ;
@@ -67,6 +100,13 @@ body{
     display: flex;
     justify-content: center;
     padding: 10px 0;
+}
+
+.foot svg{
+    width: 20px;
+    height: 20px;
+    filter: invert(35%);
+    margin: 0 20px;
 }
 
 #msg{
