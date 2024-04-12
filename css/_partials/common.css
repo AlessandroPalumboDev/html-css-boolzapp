@@ -97,6 +97,7 @@ body{
     height:calc(100% - (66px + 56px));
     background-image:url(../../img/mine.jpg) ;
     overflow: auto;
+    display: flex;
 }
 
 .foot{
@@ -121,4 +122,50 @@ body{
 
 .desktop-only{
     display: none;
+}
+
+.messaggi{
+    height: 90%;
+    width: 90%;
+    margin: auto;
+}
+
+.inviato .riceuto{
+    max-width: 60%;
+}
+
+.fumetto{
+    background-color: #D4F9BB;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inviato{
+    background-color: #D4F9BB;
+    margin-left: 40%;
+}
+
+.ricevuto{
+    background-color: white;
+    margin-right: 40%;
+}
+
+.info-messaggio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: grey;
+    font-size: 10px;
+    filter: invert(65%);
+    text-align: end;
+    margin-left: 10px;
+
+}
+
+.info-messaggio svg{
+    width: 20px;
+    height: 15px;
 }
