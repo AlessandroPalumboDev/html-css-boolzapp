@@ -65,7 +65,7 @@ body{
 }
 
 .top-icon.tablet-only ul.flex, .top .desktop-only ul.flex{
-    gap: 10px;
+    gap: 20px;
     margin: auto;
     margin-right: 10px;
 }

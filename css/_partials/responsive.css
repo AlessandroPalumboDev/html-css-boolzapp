@@ -104,6 +104,35 @@
         margin-left: 10px;
     }
 
+    .chats-content{
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+
+    .chats-content .info-chat{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .info-chat{
+        width: 100%;
+    }
+
+    .info-chat p {
+        font-size: 13px;
+        color: rgb(173, 173, 173);
+    }
+
+    .ora span{
+        font-size: 12px;
+        color: rgb(173, 173, 173);
+        margin-right: 10px;
+    }
+
+
+    
+
 
 
 
